@@ -11,6 +11,6 @@ pass.innerText = localStorage.getItem("pass");
 
 logoutBtn.addEventListener("click",() =>{
     localStorage.clear();
-    window.location.href = "./signup.html";
+    window.location.href = "./index.html";
 })
 
